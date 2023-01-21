@@ -176,7 +176,8 @@ img{
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    max-width: 1440рх;
+    margin: 0% auto;
+    max-width: 1440px;
 
     background-color: var(--main-title-color);
     padding-top: 188px; 
@@ -436,14 +437,13 @@ img{
     justify-content: center;
     border: 1px solid var(--border-color);
     border-radius: 4px;
-    padding: 16px 32px 16px 32px;
     color: var(--border-color);
 }
 
 .customers-icon{
     fiLl: currentColor;
 }
- 
+
 .customers-link:hover,
 .customers-link:focus {
     border-color: var(--hero-btn-color);
@@ -460,6 +460,7 @@ img{
 
 .container.footer-container{
     display: flex;
+    align-items: baseline;
 }
 
 
